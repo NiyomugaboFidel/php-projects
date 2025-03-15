@@ -14,28 +14,3 @@ CREATE TABLE IF NOT EXISTS students (
 
 
 
-=============PHP HOMEWORK ===============
--  TASK :Instertation
-=====================
--- Create the database  L4SODA;
-
-CREATE DATABASE IF NOT EXISTS L4SODA;
-USE L4SODA;
-
--- Create  table colled Information
-=================
----- table filds ----------
--FirstName
--LastName
--ClassName
--Sex
-
-CREATE DATABASE IF NOT EXISTS L4SODA;
-USE L4SODA;
-CREATE TABLE IF NOT EXISTS Information (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    FirstName VARCHAR(100) NOT NULL,
-    LastName VARCHAR(100) NOT NULL,
-    ClassName VARCHAR(100) NOT NULL,
-    Sex ENUM('Male', 'Female') NOT NULL,
-);
