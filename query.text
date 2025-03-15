@@ -1,0 +1,41 @@
+-- Create the database and use it
+CREATE DATABASE IF NOT EXISTS gs_kagugu;
+USE gs_kagugu;
+
+-- Create students table with student_id field
+CREATE TABLE IF NOT EXISTS students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id VARCHAR(10) UNIQUE NOT NULL,
+    fullname VARCHAR(100) NOT NULL,
+    gender ENUM('Male', 'Female') NOT NULL,
+    combination VARCHAR(50) NOT NULL,
+    registration_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+
+=============PHP HOMEWORK ===============
+-  TASK :Instertation
+=====================
+-- Create the database  L4SODA;
+
+CREATE DATABASE IF NOT EXISTS L4SODA;
+USE L4SODA;
+
+-- Create  table colled Information
+=================
+---- table filds ----------
+-FirstName
+-LastName
+-ClassName
+-Sex
+
+CREATE DATABASE IF NOT EXISTS L4SODA;
+USE L4SODA;
+CREATE TABLE IF NOT EXISTS Information (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    FirstName VARCHAR(100) NOT NULL,
+    LastName VARCHAR(100) NOT NULL,
+    ClassName VARCHAR(100) NOT NULL,
+    Sex ENUM('Male', 'Female') NOT NULL,
+);

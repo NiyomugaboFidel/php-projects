@@ -1,0 +1,148 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+   height:90vh;
+
+    position: relative;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+ .navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+.container2 {
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.form-container {
+    width: 500px;
+    border: 1px solid #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+form {
+    padding: 10px 15px;
+}
+
+.form-header {
+    position: absolute;
+    top: -16px;
+    left: 10px;
+    padding: 0 5px;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    width: 250px;
+    padding: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.gender-group {
+    display: inline-block;
+}
+
+.gender-group label {
+    width: auto;
+    margin-right: 20px;
+}
+
+input[type="radio"] {
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    accent-color: #7777;
+}
+
+select {
+    width: 250px;
+    padding: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+input[type="submit"] {
+    margin-top: 5px;
+    padding: 5px 20px;
+    background-color: #e8e8e8;
+    border: 1px solid #000;
+    font-family: "Times New Roman", Times, serif;
+    cursor: pointer;
+}
+
+/* Error message styles */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 2px;
+}
